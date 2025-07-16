@@ -17,3 +17,20 @@ p{
   font-size: 17px;
   margin-bottom: 40px;
 }
+
+/*Decorazione Card*/
+.team-card{
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 140px;
+  margin-bottom: 20px;
+}
+
+.team-card img{
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+}
