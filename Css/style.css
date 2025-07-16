@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 h1{
   color: #e53170;
   font-weight: 900;
@@ -15,7 +16,6 @@ h1{
 p{
   font-weight: 600;
   font-size: 17px;
-  margin-bottom: 40px;
 }
 
 /*Decorazione Card*/
@@ -27,7 +27,7 @@ p{
   overflow: hidden;
   height: 125px;
   margin-bottom: 20px;
-  width: 122%;
+  width: 100%;
 }
 
 .team-card img{
@@ -49,5 +49,10 @@ p{
   margin-top: 4px;
   margin-left: 20px;
   font-weight: 200;
+}
+
+.team-card-body a{
+  text-decoration: none;
+  margin-left: 20px;
 }
 
